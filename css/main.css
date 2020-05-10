@@ -1,4 +1,46 @@
 body {
-    color: blue;
-    background-color: black;
+    width: 75%;
+    height: 100px;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: rgb(156, 192, 131);
+    color: white;
+    display: inline-block;
+    border: 1px;
+    width: 500px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.skill {
+    color: rgb(243, 166, 73);
+    margin: 10px 0px;
+}
+
+button {
+    background-color: rgb(210, 109, 106);
+    color: white;
+}
+
+#addSkill {
+    background-color: white;
+    color: rgb(156, 192, 131);
+    border: 2px solid rgb(156, 192, 131);
+    font-size: medium;
+    font-weight: 600;
+    width: 100px;
+    height: 41px;
+    margin: 10px 0 0 0;
+}
+
+input {
+    border: 2px solid rgb(156, 192, 131);
+    width: 400px;
+    height: 34px;
+    font-size: large;
 }
