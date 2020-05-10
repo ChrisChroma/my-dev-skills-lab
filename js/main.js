@@ -1,6 +1,6 @@
-// $(document).ready(function() {
-//     $('.startSkill').hide();
-// });
+$(document).ready(function() {
+    $('.startSkill').hide();
+});
 
 $('#addSkill').click(function() {
     const $skill = $('input').val()
