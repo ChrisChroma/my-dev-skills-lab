@@ -1,3 +1,8 @@
 $(document).ready(function() {
-    $('.skill').hide();
-})
+    $('.startSkill').hide();
+});
+
+$('#addSkill').click(function() {
+    const $skill = $('input').val()
+    $('#skills').append('<button>X</button> ' + $skill + '<br>')
+});
